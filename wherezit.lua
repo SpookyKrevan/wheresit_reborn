@@ -53,7 +53,7 @@ spawnZones[13463] = "Blasted Lands, Silithus, Felwood, Hellfire Peninsula, Zanga
 spawnZones[13465] = "Winterspring, Hellfire Peninsula, Un'Goro Crater, Blasted Lands and Silithus" -- Mountain Silversage
 spawnZones[13466] = "Swamp of Sorrows" -- Sorrowmoss
 spawnZones[13467] = "Winterspring" -- Icecap
--- Burning Crusade Herbs --
+--[[ -- Burning Crusade Herbs --
 spawnZones[176589] = "Blasted Lands, Silithus, Eastern Plaguelands, Winterspring" -- Black Lotus
 spawnZones[22789] = "Terokkar Forest, Shadowmoon Valley, The Botanica" -- Terocone
 spawnZones[181271] = "Nagrand, Terokkar Forest, Blade's Edge Mountains, Netherstorm, Hellfire Peninsula, Zangarmarsh, Shadowmoon Valley, The Botanica, Shattrath City" -- Dreaming Glory
@@ -96,3 +96,4 @@ spawnZones[79010] = "Kun-Lai Summit, Townlong Steppes, Shado-Pan Monastery\n\nAl
 spawnZones[79011] = "Dread Wastes, Townlong Steppes, The Jade Forest, Timeless Isle\n\nAlso Contained in:\n Sha-Touched Herb" -- Fool's Cap
 spawnZones[72238] = "The Jade Forest, Valley of the Four Winds, Kun-Lai Summit, Dread Wastes, Townlong Steppes, Vale of Eternal Blossoms, Krasarang Wilds, The Veiled Stair\n\nAlso Contained in:\nRain Poppy, Silkweed, Fool's Cap, Sha-Touched Herb, Green Tea Leaf, Silkweed, Rain Poppy, Snow Lily" -- Golden Lotus
 spawnZones[89639] = "Sha-Touched Herb" -- Desecrated Herb
+--]]
