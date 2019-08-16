@@ -7,7 +7,7 @@ local function OnTooltipSetItem(tooltip, ...)
   local id = tonumber(link:match('item:(%d+)'))
   local zone = spawnZones[id];
   if zone and not lineAdded then
-    tooltip:AddLine("\nGathered from:\n" .. zone, 255/255, 255/255, 0/255, 1)
+    tooltip:AddLine("\nGathered from:\n" .. zone, 0/255, 109/255, 117/255, 1)
     lineAdded = true
   end
   -- if not zone then print(('zone id %s missing from spawnZones table'):format(id))
