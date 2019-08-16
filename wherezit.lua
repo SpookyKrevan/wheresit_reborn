@@ -69,3 +69,6 @@ CLASSIC
 --[[ Mithril ]] spawnZones[3858] = "Desolace, Searing Gorge, Burning Steppes, Tanaris, Alterac Mountains, Arathi Highlands, Hillsbrad Foothills, Silithus, The Hinterlands, Feralas, Stonetalon Mountains, Stranglethorn Vale, Thousand Needles, Western Plaguelands and Winterspring"
 --[[ Dark Iron ]] spawnZones[11370] = "Searing Gorge, Burning Steppes"
 --[[ Truesilver ]] spawnZones[7911] = "Searing Gorge, Alterac Mountains, Eastern Plaguelands, Hillsbrad Foothills"
+--[[ Thorium ]] spawnZones[10620] = "Searing Gorge, Silithus, Burning Steppes"
+
+-- Skins/Skinning --
