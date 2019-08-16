@@ -25,17 +25,7 @@ ChatFrame1:AddMessage("Wherezit Herb/Ore Location Addon Loaded.")
 
 
 --[[
-.----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
-| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
-| |     ______   | || |   _____      | || |      __      | || |    _______   | || |    _______   | || |     _____    | || |     ______   | |
-| |   .' ___  |  | || |  |_   _|     | || |     /  \     | || |   /  ___  |  | || |   /  ___  |  | || |    |_   _|   | || |   .' ___  |  | |
-| |  / .'   \_|  | || |    | |       | || |    / /\ \    | || |  |  (__ \_|  | || |  |  (__ \_|  | || |      | |     | || |  / .'   \_|  | |
-| |  | |         | || |    | |   _   | || |   / ____ \   | || |   '.___`-.   | || |   '.___`-.   | || |      | |     | || |  | |         | |
-| |  \ `.___.'\  | || |   _| |__/ |  | || | _/ /    \ \_ | || |  |`\____) |  | || |  |`\____) |  | || |     _| |_    | || |  \ `.___.'\  | |
-| |   `._____.'  | || |  |________|  | || ||____|  |____|| || |  |_______.'  | || |  |_______.'  | || |    |_____|   | || |   `._____.'  | |
-| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
-| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
-'----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+CLASSIC
 --]]
 
 -- Herbs --
@@ -75,8 +65,8 @@ ChatFrame1:AddMessage("Wherezit Herb/Ore Location Addon Loaded.")
 --[[ Tin ]] spawnZones[2771] = "Duskwood, Westfall, Hillsbrad Foothills, Wetlands, Loch Modan, Thousand Needles, Darkshore, Redridge Mountains, Ashenvale, Desolace, Stonetalon Mountains, Silverpine Forest, The Barrens, Alterac Mountains, Arathi Highlands and Stranglethorn Vale"
 --[[ Silver ]] spawnZones[2775] = "Duskwood, Hillsbrad Foothills, Alterac Mountains, Redridge Mountains, Wetlands, Arathi Highlands, Silverpine Forest, Desolace."
 --[[ Iron ]] spawnZones[2772] = "Alterac Mountains, Desolace, Hillsbrad Foothills, Arathi Highlands, Duskwood, Thousand Needles, Stranglethorn Vale, Badlands, Wetlands, Stonetalon Mountains and Swamp of Sorrows"
---[[ Gold ]] spawnZones[2776] = ""
-
+--[[ Gold ]] spawnZones[2776] = "Desolace, Alterac Mountains, Badlands and Hillsbrad Foothills"
+--[[ Mithril ]] spawnZones[3858] = ""
 
 
 
