@@ -74,7 +74,8 @@ ChatFrame1:AddMessage("Wherezit Herb/Ore Location Addon Loaded.")
 --[[ Copper ]] spawnZones[2770] = "Elwynn Forest, Dun Morogh, Darkshore, Westfall, Durotar, Tirisfal Glades, Duskwood, Loch Modan, Redridge Mountains, Mulgore, Wetlands, The Barrens, Silverpine Forest, Hillsbrad Foothills, Thousand Needles, Ashenvale and Stonetalon Mountains"
 --[[ Tin ]] spawnZones[2771] = "Duskwood, Westfall, Hillsbrad Foothills, Wetlands, Loch Modan, Thousand Needles, Darkshore, Redridge Mountains, Ashenvale, Desolace, Stonetalon Mountains, Silverpine Forest, The Barrens, Alterac Mountains, Arathi Highlands and Stranglethorn Vale"
 --[[ Silver ]] spawnZones[2775] = "Duskwood, Hillsbrad Foothills, Alterac Mountains, Redridge Mountains, Wetlands, Arathi Highlands, Silverpine Forest, Desolace."
-
+--[[ Iron ]] spawnZones[2772] = "Alterac Mountains, Desolace, Hillsbrad Foothills, Arathi Highlands, Duskwood, Thousand Needles, Stranglethorn Vale, Badlands, Wetlands, Stonetalon Mountains and Swamp of Sorrows"
+--[[ Gold ]] spawnZones[2776] = ""
 
 
 
