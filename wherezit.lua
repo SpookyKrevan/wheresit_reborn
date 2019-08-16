@@ -22,7 +22,8 @@ GameTooltip:HookScript("OnTooltipCleared", OnTooltipCleared)
 
 ChatFrame1:AddMessage("Wherezit Herb/Ore Location Addon Loaded.")
 
--- Classic Items --
+--[[ Classic Items ]]--
+
 -- Herbs -- 
 --[[ Silverleaf ]] spawnZones[765] = "Elwynn Forest, Tirisfal Glades, Teldrassil, Mulgore, Dun Morogh, Eversong Woods, Azuremyst Isle, Ghostlands, Bloodmyst Isle, Durotar, Gilneas, Loch Modan, Silverpine Forest, Westfall, The Lost Isles, Gilneas City, The Wandering Isle, Darkshore, Northern Barrens, Azshara and Thunder Bluff"
 --[[ Peacebloom ]] spawnZones[2447] = "Teldrassil, Tirisfal Glades, Durotar, Dun Morogh, Azuremyst Isle, Mulgore, Elwynn Forest, Gilneas, Eversong Woods, The Lost Isles, Ghostlands, Bloodmyst Isle, Loch Modan, Westfall, Gilneas City, Azshara, The Wandering Isle, Darkshore and Northern Barrens"
@@ -33,27 +34,28 @@ ChatFrame1:AddMessage("Wherezit Herb/Ore Location Addon Loaded.")
 --[[ Briarthorn ]] spawnZones[2450] = "Hillsbrad Foothills, Duskwood, Darkshore, Azshara, Northern Barrens, Wetlands, Redridge Mountains, Westfall, Loch Modan, Silverpine Forest, Stonetalon Mountains, Ghostlands, Bloodmyst Isle, Ashenvale, Razorfen Kraul and Southern Barrens" 
 --[[ Stranglekelp ]] spawnZones[3820] = "The Cape of Stranglethorn, Northern Stranglethorn, Tanaris, Northern Barrens, Wetlands, Blasted Lands, Western Plaguelands, Darkshore, Eastern Plaguelands, Redridge Mountains, Swamp of Sorrows, Serpentshrine Cavern, Thousand Needles, Hillsbrad Foothills, Arathi Highlands, Feralas, Silverpine Forest, Ashenvale, Stonetalon Mountains, Desolace, Westfall, Dustwallow Marsh, The Hinterlands, Loch Modan and Moonglade" 
 --[[ Bruiseweed ]] spawnZones[2453] = "Northern Stranglethorn, Wetlands, Redridge Mountains, Ashenvale, Duskwood, Westfall, The Hinterlands, Hillsbrad Foothills, Stonetalon Mountains, Loch Modan, Ghostlands, Arathi Highlands, Bloodmyst Isle, Blackfathom Deeps, Northern Barrens and Wailing Caverns" 
-spawnZones[3355] = "Northern Stranglethorn, Stonetalon Mountains, Ashenvale, Arathi Highlands, Desolace, Wetlands, Duskwood, The Hinterlands, Stranglethorn Vale and Twilight Highlands" -- Wild Steelbloom
-spawnZones[1628] = "Duskwood, Razorfen Downs, Arathi Highlands, Wetlands and Hillsbrad Foothills" -- Grave Moss
-spawnZones[3356] = "Northern Stranglethorn, Western Plaguelands, Wetlands, Southern Barrens, Desolace, Arathi Highlands, The Hinterlands, Duskwood, Dustwallow Marsh, Feralas, Ashenvale and Wailing Caverns" -- Kingsblood
-spawnZones[3357] = "Eastern Plaguelands, Western Plaguelands, Northern Stranglethorn, Dustwallow Marsh, Wetlands, Thousand Needles, Arathi Highlands, The Hinterlands, Ashenvale, Southern Barrens, Desolace, Netherstorm, The Cape of Stranglethorn, Hillsbrad Foothills, Duskwood and Stranglethorn Vale" -- Liferoot
-spawnZones[3818] = "Feralas, The Cape of Stranglethorn, Dustwallow Marsh, Western Plaguelands, Arathi Highlands, The Hinterlands, Razorfen Kraul and Stranglethorn Vale" -- Fadeleaf
-spawnZones[3821] = "Arathi Highlands, Dustwallow Marsh, The Hinterlands, Feralas, Desolace, The Cape of Stranglethorn, Razorfen Downs and Theramore's Fall (H)" -- Goldthorn
-spawnZones[3819] = "Badlands" -- Dragon's Teeth
-spawnZones[3358] = "Eastern Plaguelands, Western Plaguelands, Feralas, The Cape of Stranglethorn, Arathi Highlands, Dustwallow Marsh, Desolace, Southern Barrens and The Hinterlands" -- Khadgar's Whisker
-spawnZones[8153] = "Purple Lotus" -- Wildvine
-spawnZones[8831] = "Felwood" -- Purple Lotus
-spawnZones[4625] = "Searing Gorge, Burning Steppes, Tanaris and Badlands" -- Firebloom
-spawnZones[8836] = "Razorfen Downs, Western Plaguelands, Eastern Plaguelands and Felwood" -- Arthas's Tears
-spawnZones[8838] = "Eastern Plaguelands, Thousand Needles, Badlands, Burning Steppes, Silithus, Searing Gorge, Tanaris, Un'Goro Crater and Southern Barrens" -- Sungrass
-spawnZones[8839] = "Feralas, Zangarmarsh, Western Plaguelands, The Hinterlands, Un'Goro Crater and Maraudon"; -- Blindweed
-spawnZones[8845] = "Zangarmarsh, Un'Goro Crater"; -- Ghost Mushroom
-spawnZones[8846] = "Felwood, Blasted Lands, Desolace, Ashenvale" -- Gromsblood
-spawnZones[13464] = "Swamp of Sorrows, Felwood, Hellfire Peninsula, Silithus, Zangarmarsh, Un'Goro Crater, Badlands, Blasted Lands, Netherstorm" -- Golden Sansam
-spawnZones[13463] = "Blasted Lands, Silithus, Felwood, Hellfire Peninsula, Zangarmarsh, Burning Steppes, Un'Goro Crater" -- Dreamfoil
-spawnZones[13465] = "Winterspring, Hellfire Peninsula, Un'Goro Crater, Blasted Lands and Silithus" -- Mountain Silversage
-spawnZones[13466] = "Swamp of Sorrows" -- Sorrowmoss
-spawnZones[13467] = "Winterspring" -- Icecap
+--[[ Wild Steelbloom ]] spawnZones[3355] = "Northern Stranglethorn, Stonetalon Mountains, Ashenvale, Arathi Highlands, Desolace, Wetlands, Duskwood, The Hinterlands, Stranglethorn Vale and Twilight Highlands" 
+--[[ Grave Moss ]] spawnZones[1628] = "Duskwood, Razorfen Downs, Arathi Highlands, Wetlands and Hillsbrad Foothills" 
+--[[ Kingsblood ]] spawnZones[3356] = "Northern Stranglethorn, Western Plaguelands, Wetlands, Southern Barrens, Desolace, Arathi Highlands, The Hinterlands, Duskwood, Dustwallow Marsh, Feralas, Ashenvale and Wailing Caverns"
+--[[ Liferoot ]] spawnZones[3357] = "Eastern Plaguelands, Western Plaguelands, Northern Stranglethorn, Dustwallow Marsh, Wetlands, Thousand Needles, Arathi Highlands, The Hinterlands, Ashenvale, Southern Barrens, Desolace, Netherstorm, The Cape of Stranglethorn, Hillsbrad Foothills, Duskwood and Stranglethorn Vale"
+--[[ Fadeleaf ]] spawnZones[3818] = "Feralas, The Cape of Stranglethorn, Dustwallow Marsh, Western Plaguelands, Arathi Highlands, The Hinterlands, Razorfen Kraul and Stranglethorn Vale"
+--[[ Goldthorn ]] spawnZones[3821] = "Arathi Highlands, Dustwallow Marsh, The Hinterlands, Feralas, Desolace, The Cape of Stranglethorn, Razorfen Downs and Theramore's Fall (H)"
+--[[ Dragon's Teeth ]] spawnZones[3819] = "Badlands" 
+--[[ Khadgar's Whisker ]] spawnZones[3358] = "Eastern Plaguelands, Western Plaguelands, Feralas, The Cape of Stranglethorn, Arathi Highlands, Dustwallow Marsh, Desolace, Southern Barrens and The Hinterlands" -- Khadgar's Whisker
+--[[ Wildvine ]] spawnZones[8153] = "Purple Lotus" 
+--[[ Purple Lotus ]] spawnZones[8831] = "Felwood" 
+--[[ Firebloom ]] spawnZones[4625] = "Searing Gorge, Burning Steppes, Tanaris and Badlands" 
+--[[ Arthas's Tears ]] spawnZones[8836] = "Razorfen Downs, Western Plaguelands, Eastern Plaguelands and Felwood" 
+--[[ Sungrass ]] spawnZones[8838] = "Eastern Plaguelands, Thousand Needles, Badlands, Burning Steppes, Silithus, Searing Gorge, Tanaris, Un'Goro Crater and Southern Barrens" 
+--[[ Blindweed ]] spawnZones[8839] = "Feralas, Zangarmarsh, Western Plaguelands, The Hinterlands, Un'Goro Crater and Maraudon"; 
+--[[ Ghost Mushroom ]] spawnZones[8845] = "Zangarmarsh, Un'Goro Crater"; 
+--[[ Gromsblood ]] spawnZones[8846] = "Felwood, Blasted Lands, Desolace, Ashenvale"
+--[[ Golden Sansam ]] spawnZones[13464] = "Swamp of Sorrows, Felwood, Hellfire Peninsula, Silithus, Zangarmarsh, Un'Goro Crater, Badlands, Blasted Lands, Netherstorm" 
+--[[ Dreamfoil ]] spawnZones[13463] = "Blasted Lands, Silithus, Felwood, Hellfire Peninsula, Zangarmarsh, Burning Steppes, Un'Goro Crater" 
+--[[ Mountain Silversage ]] spawnZones[13465] = "Winterspring, Hellfire Peninsula, Un'Goro Crater, Blasted Lands and Silithus"
+--[[ Sorrowmoss ]] spawnZones[13466] = "Swamp of Sorrows" 
+--[[ Icecap ]] spawnZones[13467] = "Winterspring" 
+
 -- Ores --
 --[[ Copper ]] spawnZones[2770] = "Elwynn Forest, Dun Morogh, Darkshore, Westfall, Durotar, Tirisfal Glades, Duskwood, Loch Modan, Redridge Mountains, Mulgore, Wetlands, The Barrens, Silverpine Forest, Hillsbrad Foothills, Thousand Needles, Ashenvale and Stonetalon Mountains"
 
