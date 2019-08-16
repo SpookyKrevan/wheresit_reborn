@@ -66,7 +66,29 @@ CLASSIC
 --[[ Silver ]] spawnZones[2775] = "Duskwood, Hillsbrad Foothills, Alterac Mountains, Redridge Mountains, Wetlands, Arathi Highlands, Silverpine Forest, Desolace."
 --[[ Iron ]] spawnZones[2772] = "Alterac Mountains, Desolace, Hillsbrad Foothills, Arathi Highlands, Duskwood, Thousand Needles, Stranglethorn Vale, Badlands, Wetlands, Stonetalon Mountains and Swamp of Sorrows"
 --[[ Gold ]] spawnZones[2776] = "Desolace, Alterac Mountains, Badlands and Hillsbrad Foothills"
---[[ Mithril ]] spawnZones[3858] = ""
+--[[ Mithril ]] spawnZones[3858] = "Desolace, Searing Gorge, Burning Steppes, Tanaris, Alterac Mountains, Arathi Highlands, Hillsbrad Foothills, Silithus, The Hinterlands, Feralas, Stonetalon Mountains, Stranglethorn Vale, Thousand Needles, Western Plaguelands and Winterspring"
+--[[ Dark Iron ]] spawnZones[11370] = "Searing Gorge, Burning Steppes"
+--[[ Truesilver ]] spawnZones[7911] = "Searing Gorge, Alterac Mountains, Eastern Plaguelands, Hillsbrad Foothills"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
