@@ -1,6 +1,7 @@
+## Interface: 11302
 ## Title: Wherezit
-## Author: Kyle Evans (Krevan#1650)
-## Interface: 50400
+## Author: Krevan#1650
 ## Version: a0.0.1
 ## Notes: Displays location of herb/ore nodes when hovering over the item tooltip.
+
 wherezit.lua
